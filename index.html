@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/add6aad492.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Vite App</title>
+  </head>
+
+  <body class="flex flex-col font-lato">
+    <header class="flex mobile-s:flex-col mobile-m:flex-col mobile-l:flex-col bg-neutral-900">
+
+      <div class="flex justify-between items-center w-auto flex-row m-5">
+
+        
+        <a class="text-slate-200 text-3xl font-bold font-lato" href="">TechStore</a>
+
+        <button id="navButton" class="hover:bg-neutral-700 rounded-lg py-2 px-4 text-white">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+      </div>
+
+      <!-- NAV MENU -->
+      <div id="navMenu" class="flex mobile-s:flex-col mobile-m:flex-col mobile-l:flex-col tablet:flex-row desktop:flex-row flex-row mobile-s:hidden mobile-m:hidden mobile-l:hidden tablet:visible laptop:visible desktop:visible py-4 px-2">
+            
+        <div class="flex flex-row justify-center items-baseline py-5 px-10 border-r-2 border-neutral-700">
+          <i class="fa-solid fa-magnifying-glass text-slate-200 mr-2"></i>
+          <input class="py-1 px-2 w-full outline-none border border-neutral-600 bg-neutral-800 text-neutral-200 placeholder:text-neutral-400" type="text" placeholder="Busca tu producto...">
+        </div>
+
+        <nav class="flex mobile-s:flex-col mobile-m:flex-col mobile-l:flex-col tablet:flex-row laptop:flex-row desktop:flex-row flex-row justify-items-stretch w-full">
+
+          <ul class="bg-purple-900 flex mobile-s:flex-col  mobile-m:flex-col  mobile-l:flex-col text-neutral-200">
+            <span class="text-md font-semibold ml-4 text-neutral-100">Computación</span>
+            <li class="nav_box"><a class="nav_item" href="">Inicio</a></li>
+            <li class="nav_box"><a class="nav_item" href="">Categoria</a></li>
+            <li class="nav_box"><a class="nav_item" href="">Sobre Nosotros</a></li>
+          </ul>
+
+          <ul class="bg-cyan-900 flex mobile-s:flex-col  mobile-m:flex-col  mobile-l:flex-col text-neutral-200">
+            <span class="text-md font-semibold ml-4 text-neutral-100">Computación</span>
+            <li class="nav_box"><a class="nav_item" href="">Inicio</a></li>
+            <li class="nav_box"><a class="nav_item" href="">Categoria</a></li>
+            <li class="nav_box"><a class="nav_item" href="">Sobre Nosotros</a></li>
+          </ul>
+
+          <ul class="bg-green-900 flex mobile-s:flex-col  mobile-m:flex-col  mobile-l:flex-col text-neutral-200">
+            <span class="text-md font-semibold ml-4 text-neutral-100">Computación</span>
+            <li class="nav_box"><a class="nav_item" href="">Inicio</a></li>
+            <li class="nav_box"><a class="nav_item" href="">Categoria</a></li>
+            <li class="nav_box"><a class="nav_item" href="">Sobre Nosotros</a></li>
+          </ul>
+  
+        </nav>
+
+      </div>
+
+    </header>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

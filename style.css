@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .nav_box{
+
+        @apply
+        w-auto
+        flex
+        justify-start
+        ml-1
+        bg-neutral-900;
+    
+    }
+
+    .nav_item{
+
+        @apply
+        w-full
+        py-2
+        px-4
+        hover:bg-neutral-700;
+
+    }
+
+}
